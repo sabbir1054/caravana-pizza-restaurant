@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Oswald:wght@200;300;600&display=swap');
+
+/* font-family: 'Antic Slab', serif;
+font-family: 'Oswald', sans-serif; */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* ================================  Style for Header Section     ======================================= */
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+#navigation {
+    background-color: black;
+    color: white;
+    
+}
+
+.navbar-brand {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.menu {
+    margin-right: 40px;
+}
+
+.menu .nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+.navbar-toggler .fa-bars {
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #F2C94C;
+}
+header {
+    background-image: url(../assets/img/header-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#hero-content {
+    margin-top: 20vh;
+
+}
+
+#hero-content .header h1 {
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Antic Slab', serif;
+    border-bottom: 5px solid #F2C94C;
+    margin: 0% 31%;
+    font-weight: bold;
+}
+
+#hero-content .header p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin: 0% 33%;
+    text-align: justify;
+
+}
+
+/* -----------------     Style For  About section   ==================================== */
+
+#about {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+
+.about-left {
+    padding-right: 10vw;
+    margin-top: 2vw;
+}
+
+#about-content h2 {
+    font-size: 2vw;
+    border-bottom: 5px solid #F2C94C;
+    font-family: 'Antic Slab', serif;
+
+}
+
+#about-content p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#read-more,
+#menu-btn {
+    width: 129px;
+    height: 54px;
+    background-color: black;
+    color: #F2C94C;
+    border: 2px solid #F2C94C;
+    transition: all 0.2s ease-in;
+}
+
+#read-more:hover,
+#menu-btn:hover {
+    color: black;
+    background-color: #F2C94C;
+    border: 2px solid black;
+}
+
+.about-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ===================      Style for Location Section   =========================== */
+
+#location {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+#location h2 {
+    text-align: center;
+    font-size: 2vw;
+    border-bottom: 5px solid #F2C94C;
+    font-family: 'Antic Slab', serif;
+    margin: 0 25vw;
+    margin-bottom: 10vh;
+}
+
+.location-content {
+    padding-top: 7vh;
+    font-size: 20px;
+}
+
+.location-content .attendence {
+    margin-top: 2vw;
+}
+
+/* ================= Css For Menu Section */
+#food-menu {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+#food-menu h2 {
+    text-align: center;
+    font-size: 2vw;
+    border-bottom: 5px solid #F2C94C;
+    font-family: 'Antic Slab',
+        serif;
+    margin: 0 25vw;
+    margin-bottom: 2vh;
+}
+
+.food-menu-present p {
+    padding: 0 10vw;
+    font-size: 20px;
+    margin-bottom: 2vh;
+    text-align: justify;
+}
+
+.menu-hero-image {
+    margin-bottom: 5vh;
+}
+
+.menu-btn {
+    text-align: center;
+}
+
+/* Menu hidden part */
+#cancel-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fa-times-circle {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    font-size: 45px;
+}
+
+.fa-times-circle:hover {
+    border-radius: 50px;
+    background-color: rgb(61, 43, 165);
+    color: #F2C94C;
+    font-size: 45px;
+}
+
+.food-menu-hidden h2 {
+    font-size: 3vw !important;
+    margin: 0 35vw !important;
+    margin-top: 5vw !important;
+
+}
+
+#food-navigation ul {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 5vh;
+}
+
+#food-navigation ul li {
+    margin: 10px 30px;
+}
+
+#food-navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+}
+
+#food-navigation ul li a:hover {
+    border-bottom: 2px solid #F2C94C;
+}
+
+.food-item {
+    margin: 10px 0px;
+}
+
+.food-item h3,
+.price {
+    color: #F2C94C;
+}
+
+/* =============  Footer Section Style ====================== */
+.footer-top {
+    background-image: url(../assets/img/footer-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer-head h1 {
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Antic Slab', serif;
+    border-bottom: 5px solid #F2C94C;
+    margin: 0% 31%;
+    font-weight: bold;
+    padding-top: 35vh;
+
+}
+
+#social {
+    margin-top: 10vh;
+}
+
+#social ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 50px;
+}
+
+#social ul li {
+    margin: 0 20px;
+}
+
+#social ul li a .fab {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.521);
+    transition: all 0.2s ease-in;
+
+
+
+}
+
+#social ul li a .fab:hover {
+    color: #F2C94C
+}
+
+.footer-bottom {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.food-menu-hidden{
+    display: none;
+    transition: all 0.3s ease-in;
+}

@@ -1,0 +1,221 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* X-Small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px) {
+    #navigation ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-content .header h1 {
+        font-size: 8vw;
+        margin: 0% 15%;
+
+    }
+
+    #hero-content .header p {
+        margin: 0 5%;
+        font-size: 5vw;
+    }
+
+    #hero-content .header span {
+        display: none;
+    }
+
+    /* About section */
+    #about-content h2 {
+        font-size: 7vw;
+
+    }
+
+    #about-content p {
+        font-size: 3vw;
+    }
+
+    #read-more {
+        margin-bottom: 20px;
+    }
+
+    .about-right {
+        justify-content: center;
+    }
+
+    /* Location  */
+    #location h2 {
+        font-size: 8vw;
+
+    }
+
+    /* Menu */
+    #food-menu h2 {
+        font-size: 8vw;
+    }
+
+    .menu-left-img,
+    .menu-right-img {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .food-menu-hidden h2 {
+        font-size: 8vw !important;
+        margin-bottom: 20px !important;
+    }
+
+    #food-navigation {
+        display: none;
+    }
+
+    .all-food {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* footer */
+    .footer-head h1 {
+        font-size: 8vw;
+        margin: 0% 15%;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #navigation ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-content .header h1 {
+        font-size: 6vw;
+        margin: 0% 15%;
+
+    }
+
+    #hero-content .header p {
+        margin: 0 5%;
+        font-size: 3vw;
+    }
+
+    /* About */
+    #about-content h2 {
+        font-size: 6vw;
+    }
+
+    #read-more {
+        margin-bottom: 20px;
+    }
+
+    #location h2 {
+        font-size: 6vw;
+        margin: 0 15vw;
+        margin-bottom: 20px;
+    }
+
+    #cancel-icon {
+        margin-bottom: 20px;
+    }
+
+    .menu-left-img {
+        margin-bottom: 20px;
+    }
+
+    #food-menu h2 {
+        font-size: 6vw;
+        margin: 0 5vw;
+    }
+
+    .food-menu-hidden h2 {
+
+        font-size: 6vw !important;
+        margin: 0 10vw !important;
+    }
+
+    .footer-head h1 {
+        font-size: 6vw;
+        margin: 0% 20%;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #navigation ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero-content .header h1 {
+        font-size: 6vw;
+        margin: 0% 15%;
+
+    }
+
+    #hero-content .header p {
+        margin: 0 5%;
+        font-size: 3vw;
+    }
+    #about-content h2 {
+        font-size: 5vw;
+    }
+    .about-left {
+         padding-right: 0vw; 
+         margin-top: 0vw; 
+    }
+    .about-left span {
+        display: none;
+    }
+    #location h2 {
+        font-size: 5vw;
+        margin: 0 8vw!;
+    }
+    .location-content {
+     padding-top: 1vh;
+    }
+    #food-menu h2{
+        font-size: 5vw;
+        margin: 0 15vw;
+    }
+    .food-menu-hidden h2{
+        font-size: 5vw !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #about-content h2 {
+        font-size: 4vw;
+    }
+    #food-menu h2 {
+        font-size: 4vw;
+        margin: 0 15vw;
+    }
+    #location h2 {
+        font-size: 4vw;
+        margin: 0 8vw !;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+     #about-content h2 {
+         font-size: 3vw;
+     }
+
+     #food-menu h2 {
+         font-size: 3vw;
+         margin: 0 15vw;
+     }
+
+     #location h2 {
+         font-size: 3vw;
+         margin: 0 8vw !;
+     }
+}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
+@media (min-width: 1400px) {}
